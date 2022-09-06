@@ -1,0 +1,45 @@
+.downloadWrap {
+	background-color: #FFF;
+	padding-top: 5vh;
+	padding-bottom: 2vh;
+	
+}
+.downloadWrap .downloadBtn { 
+	display: flex;
+	justify-content: center;
+	margin-bottom: 6vh;
+}
+.downloadWrap .downloadBtn span { 
+	width: 9vw;
+	height: 9vh;
+	line-height: 9vh;
+	font-size: 1.8vw;
+	background-color: #008ED6;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.2vw;
+}
+.downloadWrap .downloadBtn span:first-child {
+	margin-right: 4vw;
+}
+.downloadWrap p { 
+	color: #808080;
+	text-align: center;
+	margin-bottom: 0.5vh;
+	font-size: 1vw;
+}
+.downloadWrap p span {
+	color: #008ED6;
+ }
+
+ @media only screen and (max-width: 1199px) { 
+	.downloadWrap .downloadBtn span { 
+		width: 100px;
+		height: 44px;
+		line-height: 44px;
+		font-size: 18px;
+	}
+	.downloadWrap p { 
+		font-size: 14px;
+	}
+}
